@@ -1,5 +1,8 @@
 # RELEASE - Location of external support modules
 
+EPICS_BASE=/epics/src/base
+
+
 -include $(TOP)/../RELEASE.local
 -include $(TOP)/../RELEASE.$(EPICS_HOST_ARCH).local
 -include $(TOP)/configure/RELEASE.local
